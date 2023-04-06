@@ -10,6 +10,7 @@ struct ListNode
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
+
 ListNode *rotateRight(ListNode *head, int k)
 {
 
@@ -32,6 +33,6 @@ ListNode *rotateRight(ListNode *head, int k)
 
 int main()
 {
-    
+
     return 0;
 }
